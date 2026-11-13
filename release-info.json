@@ -1,0 +1,12 @@
+{
+  "version": "full-mobile-20261113",
+  "sourceSnapshotAt": "2026-11-13T02:09:45.187Z",
+  "clothing": 317,
+  "hairParts": 108,
+  "lessons": 150,
+  "readings": 30,
+  "printingEnabled": false,
+  "dyeInterfaceEnabled": false,
+  "automatedTestsPassed": 137,
+  "remoteDeployment": null
+}
