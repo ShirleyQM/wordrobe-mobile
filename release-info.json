@@ -1,5 +1,5 @@
 {
-  "version": "full-mobile-20261114-hair",
+  "version": "full-mobile-20261115-palette",
   "sourceSnapshotAt": "2026-11-13T02:09:45.187Z",
   "clothing": 317,
   "hairParts": 108,
@@ -12,5 +12,7 @@
   "publicUrl": "https://shirleyqm.github.io/wordrobe-mobile/",
   "hairDyeInterfaceEnabled": true,
   "garmentDyeInterfaceEnabled": false,
-  "hairDyeFix": "Hair palette, tones, save, undo and guide use their own feature switch."
+  "hairDyeFix": "Hair palette, tones, save, undo and guide use their own feature switch.",
+  "hairPaletteScrollPreserved": true,
+  "hairPaletteSaveButtonFixed": true
 }

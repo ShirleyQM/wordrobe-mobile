@@ -12027,3 +12027,10 @@ html body .mobile-app.holo-app[data-prism] #clothing-order{width:var(--ui-contro
 html body .mobile-app.holo-app[data-prism] #holo-shortcuts{gap:4px!important}
 html body .mobile-app.holo-app[data-prism] #holo-zoom{top:44px!important}
 html body .mobile-app.holo-app[data-prism][data-tab=hair] #hair-colors .hair-mode-row{height:36px!important;min-height:36px!important;max-height:36px!important}
+
+/* Hair color: keep saving outside the scrolling preset strip. */
+body .mobile-app[data-tab] #hair-colors .hair-color-row{display:grid!important;grid-template-columns:112px 44px minmax(0,1fr)!important;gap:8px!important;align-items:start!important}
+body .mobile-app[data-tab] #hair-colors :is(.hair-free-section,.hair-save-section,.hair-preset-section){min-width:0!important;display:grid!important;grid-template-rows:16px 43px;gap:3px}
+body .mobile-app[data-tab] #hair-colors .hair-section-title{display:block!important;white-space:nowrap;font-size:10px!important;line-height:16px!important;color:#81768f}
+body .mobile-app[data-tab] #hair-colors .hair-save-section [data-palette-new]{position:static!important;display:flex!important;align-items:center;justify-content:center;flex:none!important;width:28px!important;min-width:28px!important;height:28px!important;min-height:28px!important;padding:0!important;margin:0!important;font-size:20px!important;line-height:28px!important;border:0!important;background:transparent!important;color:#9382ae!important}
+body .mobile-app[data-tab] #hair-colors .hair-preset-section .mobile-swatches{display:flex!important;min-width:0!important;max-width:100%!important;overflow-x:auto!important;overflow-y:hidden!important;flex-wrap:nowrap!important;scroll-behavior:auto!important;touch-action:pan-x;overscroll-behavior-x:contain}
